@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    background-color: #D02120;
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+#header {
+    display: block;
+    text-align: center;
+    margin: 250px 0 0 0;
+}
+
+ul {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+h4 {
+    color: white;
+    font-size: .68em;
+    font-weight: 100;
+}
+
+a {
+    display: block;
+    text-align: start;
+    color: white;
+    font-size: .68em;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #D02120;
+    color: white;
+    display: table;
+}
+
+/* new class "social-link": these take all of the things you wrote for the <a> tag above this and overrides anything that you put in it. */
+
+.social-link {
+    color: grey;
+}
+
+.social-link:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 75px
+}
+
+.socials {
+    display: flex;
+    margin: 0 0 0 675px;
+    color: #b5b5b5
+}
+
+
+.footer-tags {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 610px;
+}
